@@ -47,3 +47,10 @@ def ScoreFinder(names, points, string):
         print("OUTPUT", string, "got a score of", points)
     elif a!= 1:
         print('OUTPUT player not found')
+def Union(lst1, lst2):
+    addlist= lst1+lst2
+    finallist= []
+    for i in addlist:
+        if i not in finallist:
+            finallist.append(i)
+    print("OUTPUT", finallist)
