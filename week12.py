@@ -20,3 +20,11 @@ def UpdateString(str1, str2, a):
     str1 = ''.join(str1)
     finalstr = str(str1)
     print("OUTPUT", finalstr)
+def FindWordCount(lst, string):
+    x = 0
+    lst = (''.join(lst))
+    lst = lst.split()
+    for a in lst:
+        if a == string:
+            x = x+1
+    print("OUTOUT", x)
