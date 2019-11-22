@@ -54,3 +54,13 @@ def Union(lst1, lst2):
         if i not in finallist:
             finallist.append(i)
     print("OUTPUT", finallist)
+def Intersection(lst1, lst2):
+    finallist= []
+    x = 0
+    while x< len(lst1):
+        if lst1[x] in lst2:
+            finallist.append(lst1[x])
+            x = x+1
+        else:
+            x = x+1
+    print("OUTPUT", finallist)
